@@ -1,1 +1,1 @@
-# internshala-md
+# Internshala Landing Page
