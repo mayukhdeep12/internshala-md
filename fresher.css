@@ -1,0 +1,16 @@
+.main-f {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+.block-f {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+}
+
+.block-f .block-1{
+    text-align: center;
+    margin: 0 50px;
+}

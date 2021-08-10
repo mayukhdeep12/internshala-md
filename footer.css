@@ -1,0 +1,29 @@
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background: #333333;
+    color: white;
+    font-family: sans-serif;
+    padding: 1em;
+    margin-top: 50px;
+    border-bottom: 2px solid gray;
+}
+
+.s1 {
+    margin-left: 100px;
+}
+
+.s2 {
+    margin-left: 50px;
+}
+
+
+.footer-down {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.social ul {
+    display: flex;
+    list-style: none;
+}

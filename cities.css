@@ -1,0 +1,65 @@
+.mpro {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 80px;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mpro .mpro-head {
+    
+    font-size:20px;
+    color: black;
+    
+}
+
+.para {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.para .blue {
+    font-weight: bold;
+    justify-self: end;
+    margin-right: 140px;
+    color: #007ED2;
+    cursor: pointer;
+}
+
+/*Blocks*/
+
+.main-mp {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 20px;
+}
+
+.block-mp {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 8px;
+    margin-left: 80px;
+}
+
+
+.block-mp1 {
+    background: #fff;
+    padding: 2em;
+    border-radius: 8px;
+    text-align: center;
+    font-family: sans-serif;
+    height: 120px;
+}
+
+.block-mp1 img {
+    height: 80px;
+}
+
+.block-mp1:hover {
+    color: #1872C6;
+}
+
+.block-mp1:hover {
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.63);
+}
+
